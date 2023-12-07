@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+.filter{
+    min-width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    color: #B2BABB;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter > span{
+    display: flex;
+    gap: 10px;
+}
+
+.filter > span > svg{
+    transform: translateY(20%);
+}
+
+.filter > select{
+    background-color: #154360;
+    min-width: 60px;
+    height: 30px;
+    color: black;
+    outline: none;
+    border: none;
+    padding-left: 1%;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter > option{
+    appearance: unset;
+    background-color: transparent;
+    color: red;
+}

@@ -1,0 +1,16 @@
+.header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex-wrap: wrap;
+}
+
+.start{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

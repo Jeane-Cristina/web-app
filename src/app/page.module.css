@@ -1,0 +1,22 @@
+.main {
+  display: grid;
+  min-height: 100vh;
+  width: 100vw;
+  grid-template-rows: 80px auto;
+  background-color: #1F618D;
+  /*background-image: url('https://wallpaperaccess.com/full/7317168.jpg');*/
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 680px) {
+  .main{
+    grid-template-rows: 150px auto;
+  }
+}
+
+@media (max-width: 490px) {
+  .main{
+    grid-template-rows: 200px auto;
+  }
+}
